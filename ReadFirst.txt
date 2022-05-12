@@ -1,0 +1,22 @@
+Requisitos:
+1. Instalar NODE
+2. Instalar por terminal: npm install -g sass
+3. probar por terminal: sass
+4. Compilar por terminal: sass sass/styles.sass css/styles.css Crea un css con un css.map para referencia directa entre css y sass
+5. Para testeo constante al realizar cualquier cambio, por terminal: sass --watch sass/styles.sass css/styles.css
+6. Entorno de desarrollo: si se tiene varios archivos lo anterior no sirve, para compilar varios archivos como js, reload de cambios. Se 
+   necesita un task runners (automatizadores de tareas) como webpack o gulp se puede combinar con cualquier otro tecnología de frontend
+   Para instalar webpack debe tener node: 
+   npm i webpack webpack -cli -D          como dependencia de desarrollo
+   npm i lodash-es                        depdencia para javascript moderno
+
+   Para gulp 
+   npm install gulp-cli -g                 global
+   npm init                                creap el package.json de dependecnias relacionadas
+   npm install gulp -D                     dependencia de desarrollo
+   npx -p touch nodetouch gulpfile.js      crear archivo de configuración de tareas
+   gulp --help
+
+7. instalar librerías necesarias (pueden ser muchas) en terminal: npm install --save-dev gulp gulp-sass gulp-sourcemaps browsersync
+
+

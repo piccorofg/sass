@@ -1,0 +1,26 @@
+{
+  "name": "sass-gulp",
+  "version": "1.0.0",
+  "description": "Curso Sass Con Gulp",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git-sass"
+  },
+  "keywords": [
+    "sass",
+    "gulp",
+    "git"
+  ],
+  "author": "Freddy Guzman",
+  "license": "ISC",
+  "devDependencies": {
+    "browsersync": "0.0.1-security",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0"
+  }
+}
