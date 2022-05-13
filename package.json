@@ -18,9 +18,7 @@
   "author": "Freddy Guzman",
   "license": "ISC",
   "devDependencies": {
-    "browsersync": "0.0.1-security",
-    "gulp": "^4.0.2",
-    "gulp-sass": "^5.1.0",
-    "gulp-sourcemaps": "^3.0.0"
-  }
+    "browsersync": "0.0.1-security"
+  },
+  "dependencies": {}
 }

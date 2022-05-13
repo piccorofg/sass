@@ -18,5 +18,6 @@ Requisitos:
    gulp --help
 
 7. instalar librerías necesarias (pueden ser muchas) en terminal: npm install --save-dev gulp gulp-sass gulp-sourcemaps browsersync
+    npm i browser-sync --save
 
 
